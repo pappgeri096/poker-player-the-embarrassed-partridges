@@ -19,7 +19,7 @@ public class Player {
         for(Map.Entry<String, JsonElement> entry : cards.getAsJsonObject().entrySet()) {
             System.err.println("Key = " + entry.getKey() + " Value = " + entry.getValue() );
         }
-
+        System.err.println(cards.getClass());
         System.err.println("NAMES              "+ names);
         System.err.println("CARDS :            "+ cards);
         System.err.println("ROUND :            "+ round);
