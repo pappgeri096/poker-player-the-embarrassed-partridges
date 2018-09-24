@@ -39,11 +39,4 @@ public class Player {
 
         return 1000;
     }
-
-    public static void showdown(JsonElement game) {
-    }
-
-    private static void addToCards(Card card) {
-        Card.cards.add(card);
-    }
 }
