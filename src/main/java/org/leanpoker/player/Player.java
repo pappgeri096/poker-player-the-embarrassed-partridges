@@ -16,10 +16,12 @@ public class Player {
         JsonElement betIndex = request.getAsJsonObject().getAsJsonPrimitive("bet_index");
         JsonElement cards = request.getAsJsonObject().getAsJsonArray("players").get(3).getAsJsonObject().get("hole_cards");
 
-        for(Map.Entry<String, JsonElement> entry : cards.getAsJsonObject().entrySet()) {
-            System.err.println("Key = " + entry.getKey() + " Value = " + entry.getValue() );
-        }
-        System.err.println(cards.getClass());
+
+//        for(Map.Entry<String, JsonElement> entry : cards.getAsJsonObject().entrySet()) {
+//            System.err.println("Key = " + entry.getKey() + " Value = " + entry.getValue() );
+//        }
+
+
         System.err.println("NAMES              "+ names);
         System.err.println("CARDS :            "+ cards);
         System.err.println("ROUND :            "+ round);
