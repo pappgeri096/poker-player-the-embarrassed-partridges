@@ -20,11 +20,11 @@ public class Player {
 //            System.err.println("Key = " + entry.getKey() + " Value = " + entry.getValue() );
 //        }
 
-       if(cards!=null){
-           for(JsonElement jsonObject: cards.getAsJsonArray()){
-               System.err.println(jsonObject.getAsJsonObject().get("rank") + " MUKSZIK");
-               addToCards(new Card(jsonObject.getAsJsonObject().get("suit").getAsString(), jsonObject.getAsJsonObject().get("rank").getAsString() ));
-           }
+//      if(cards!=null){
+//           for(JsonElement jsonObject: cards.getAsJsonArray()){
+//               System.err.println(jsonObject.getAsJsonObject().get("rank") + " MUKSZIK");
+//               addToCards(new Card(jsonObject.getAsJsonObject().get("suit").getAsString(), jsonObject.getAsJsonObject().get("rank").getAsString() ));
+//           }
 
 //           System.err.println("LENGHT" + Card.cards.size());
 
