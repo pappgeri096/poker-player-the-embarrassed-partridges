@@ -21,7 +21,7 @@ public class Player {
 //            System.err.println("Key = " + entry.getKey() + " Value = " + entry.getValue() );
 //        }
 
-
+        System.err.println(cards.getClass());
         System.err.println("NAMES              "+ names);
         System.err.println("CARDS :            "+ cards);
         System.err.println("ROUND :            "+ round);
