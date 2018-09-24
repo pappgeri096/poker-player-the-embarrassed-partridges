@@ -29,7 +29,7 @@ public class Player {
 //           System.err.println("LENGHT" + Card.cards.size());
 
 
-       }
+
 
 
         System.err.println("NAMES              "+ names);
