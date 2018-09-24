@@ -11,7 +11,10 @@ public class Player {
 
     public static int betRequest(JsonElement request) {
         JsonElement names = request.getAsJsonObject().getAsJsonArray("players");
-        System.err.println(names);
+        JsonElement cards = request.getAsJsonObject().getAsJsonArray("hole_cards");
+        System.err.println("NAMES              "+ names);
+        System.err.println("CARDS :            "+ cards);
+
         return 0;
     }
 
