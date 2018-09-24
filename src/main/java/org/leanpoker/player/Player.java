@@ -37,6 +37,6 @@ public class Player {
         System.err.println("ROUND :            "+ round);
         System.err.println("BET INDEX: "+ betIndex);
 
-        return 1000;
+        return 0;
     }
 }
