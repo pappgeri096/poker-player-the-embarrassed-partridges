@@ -23,9 +23,11 @@ public class Player {
        if(cards!=null){
            for(JsonElement jsonObject: cards.getAsJsonArray()){
                System.err.println(jsonObject.getAsJsonObject().get("rank") + " MUKSZIK");
+               addToCards(new Card(jsonObject.getAsJsonObject().get("suit").getAsString(), jsonObject.getAsJsonObject().get("rank").getAsString() ));
            }
-
+            Card.cards.size();
        }
+
 
         System.err.println("NAMES              "+ names);
         System.err.println("CARDS :            "+ cards);
@@ -36,5 +38,9 @@ public class Player {
     }
 
     public static void showdown(JsonElement game) {
+    }
+
+    private static void addToCards(Card card) {
+        Card.cards.add(card);
     }
 }
