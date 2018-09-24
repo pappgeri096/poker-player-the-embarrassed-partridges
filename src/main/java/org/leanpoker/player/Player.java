@@ -26,9 +26,9 @@ public class Player {
                addToCards(new Card(jsonObject.getAsJsonObject().get("suit").getAsString(), jsonObject.getAsJsonObject().get("rank").getAsString() ));
            }
 
-            Card.cards.size();
+           System.err.println(Card.cards.size());
 
-           
+
        }
 
 
