@@ -34,7 +34,7 @@ public class Player {
         System.err.println("ROUND :            "+ round);
         System.err.println("BET INDEX: "+ betIndex);
 
-        return 155;
+        return 0;
     }
 
     public static void showdown(JsonElement game) {
