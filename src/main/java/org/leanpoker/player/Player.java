@@ -22,7 +22,7 @@ public class Player {
 
        if(cards!=null){
            for(JsonElement jsonObject: cards.getAsJsonArray()){
-               System.err.println(jsonObject.getAsJsonObject().get("rank"));
+               System.err.println(jsonObject.getAsJsonObject().get("rank") + " MUKSZIK");
            }
 
        }
