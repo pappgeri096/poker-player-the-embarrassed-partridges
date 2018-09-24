@@ -25,7 +25,10 @@ public class Player {
                System.err.println(jsonObject.getAsJsonObject().get("rank") + " MUKSZIK");
                addToCards(new Card(jsonObject.getAsJsonObject().get("suit").getAsString(), jsonObject.getAsJsonObject().get("rank").getAsString() ));
            }
+
             Card.cards.size();
+
+           
        }
 
 
