@@ -26,7 +26,7 @@ public class Player {
                addToCards(new Card(jsonObject.getAsJsonObject().get("suit").getAsString(), jsonObject.getAsJsonObject().get("rank").getAsString() ));
            }
 
-           System.err.println("LENGHT" + Card.cards.size());
+//           System.err.println("LENGHT" + Card.cards.size());
 
 
        }
@@ -37,7 +37,7 @@ public class Player {
         System.err.println("ROUND :            "+ round);
         System.err.println("BET INDEX: "+ betIndex);
 
-        return 0;
+        return 1000;
     }
 
     public static void showdown(JsonElement game) {
