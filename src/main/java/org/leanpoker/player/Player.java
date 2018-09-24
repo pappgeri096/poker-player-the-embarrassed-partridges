@@ -25,6 +25,8 @@ public class Player {
                System.err.println(jsonObject.getAsJsonObject().get("rank") + " MUKSZIK");
            }
 
+
+
        }
 
         System.err.println("NAMES              "+ names);
@@ -32,7 +34,7 @@ public class Player {
         System.err.println("ROUND :            "+ round);
         System.err.println("BET INDEX: "+ betIndex);
 
-        return 0;
+        return 155;
     }
 
     public static void showdown(JsonElement game) {
